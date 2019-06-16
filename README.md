@@ -1,4 +1,5 @@
-## Project Member: Group No:06
+## Group No:06
+## Project Member:
 ```bash
 Name: Sifatul Alam Shohan
 Id: 1711385042
