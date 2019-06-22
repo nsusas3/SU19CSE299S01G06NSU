@@ -31,3 +31,20 @@ body,html{
 .inner-container-1{
     padding-top: 200px;
 }
+.form-container{
+    background: #292b2c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px,opx,10px,0px, #000;
+}
+.log-in{
+    
+    padding-top: 150px;
+}
+#form-text{
+    color: #ffffff;
+}
+h2{
+    background: white;
+    align-content: center;
+}
