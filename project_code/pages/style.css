@@ -12,4 +12,22 @@
 }
 form{
     padding-right: 100px;
+ }
+body,html{
+    height: 100%;
+}
+.img-container{
+    background-image: url(../images/desk-3139127_1920.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    color: white;
+    background: black;
+}
+.inner-container-1{
+    padding-top: 200px;
 }
