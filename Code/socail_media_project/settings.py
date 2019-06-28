@@ -33,9 +33,12 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'users.apps.UsersConfig', # new
     'pages.apps.PagesConfig', # new
+    'newsfeeds.apps.NewsfeedsConfig', # new
     'django.contrib.admin',
     'django.contrib.auth',
+
     'crispy_forms', # new 3rd party
+
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -131,3 +134,4 @@ EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+TIME_ZONE = 'Asia/Dhaka' # new
