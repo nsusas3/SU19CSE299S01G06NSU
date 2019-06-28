@@ -5,15 +5,14 @@
 
 
 {% block content %}
+<div class="jumbotron">
 
-{% if user.is_authenticated %}
-Hi {{ user.username}}!
-<p> <a href= " {% url 'logout' %}"> Log Out </a> </p>
+            {% if user.is_authenticated %}
+            
+            <h1 class="display-4">Hi {{ user.username}}!</h1>
+            {% endif %}
+</div>
 
-{% else %}
-<p> You are not logged in </p>
-<a href="{% url 'login' %}">Log In</a> | 
-<a href="{% url 'signup' %}">Sign Up</a>
-{% endif %}
+
 
 {% endblock content %}
