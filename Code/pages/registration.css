@@ -1,0 +1,31 @@
+ /* *{
+    margin: 0;
+    height: 100%;
+}
+body{
+    width: 100%;
+}  */
+/* body,html{
+    height: 100%;
+}
+.hero-image{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(/Code/images/laptop-3087585_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+} */
+body,html{
+    height: 100%;
+}
+.img-container{
+    background-image: url(../images/laptop-3087585_1920.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
