@@ -48,3 +48,13 @@ h2{
     background: white;
     align-content: center;
 }
+
+footer{
+    background: #292b2c;
+}
+.footer-copyright{
+    color: #ffffff;
+}
+.mb-1{
+    color: #ffffff;
+}
