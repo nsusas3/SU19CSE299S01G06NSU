@@ -1,6 +1,6 @@
-#Logo{
-    width: 50px;
-    height: 50px;
+.Logo{
+    width: 70px;
+    height: 70px;
     padding: 10px;
 }
 .nav-item{
@@ -13,7 +13,7 @@
 .img-container{
     background-image: url(../images/landscape_blue_tree_black_92069_1280x720.jpg);
     height: 100%;
-    height: 130px;
+    height: 220px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,15 +30,28 @@ footer{
     color: #ffffff;
 }
 img{
-    border-radius: 50%;
+    border-radius: 999em;
+    /* border-radius: 50%; */
     width: 200px;
     height: 200px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .page-footer{
     margin-top: 1000px;
 }
 #Intro{
     background: #292b2c;
+}
+#location{
+    color: grey;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+#university{
+}
+.image-border{
+    padding-top: 10px;
 }
