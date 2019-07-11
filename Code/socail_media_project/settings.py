@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic', # new!
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # new!
 ]
 
 ROOT_URLCONF = 'socail_media_project.urls'
@@ -135,3 +137,7 @@ EMAIL_HOST_PASSWORD = 'SG.VZFE9P-ERBKkRx1yv8AsCw.uxnTVoPro--KPf-acDewLulUGNF9C6r
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'Asia/Dhaka' # new
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # new!
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
