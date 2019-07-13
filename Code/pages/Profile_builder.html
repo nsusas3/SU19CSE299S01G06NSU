@@ -50,6 +50,20 @@
 <br><br>
     <!--Profile forms-->
     <div class="container">
+        <h1 class="text-dark">Profile Picture</h1>
+            <img src="/Code/images/img_avatar.png" class="rounded mx-auto d-block" alt="...">
+            <br>
+            <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01"
+                        aria-describedby="inputGroupFileAddon01">
+                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                  </div>
+                  <br>
         <form>
             <div class="form-row">
               <div class="col">
@@ -132,7 +146,8 @@
           aria-label="Search ">
       </form>
       <br>
-      <button type="button" class="btn btn-danger">Add</button>
+      <button type="button" class="btn btn-danger btn-1">Add</button>
+      <br>
       <br>
               <h1>Skills</h1>
               <form>
@@ -142,7 +157,8 @@
                         <input type="text" class="form-control" placeholder="skill name">
                       </div>
                       <div class="col">
-                            
+                            <label>Skill Percentage</label>
+                        <input type="number" class="form-control" placeholder="skill percentage">
                       </div>
                     </div>
                   </form>
