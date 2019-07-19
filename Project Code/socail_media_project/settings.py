@@ -25,7 +25,7 @@ SECRET_KEY = '=!&@b6qb=%(lc0+$$*s5c9lt6w-28-e^u&i7&_h%c2=)zwt$%i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com']
 
 
 # Application definition
@@ -140,3 +140,4 @@ EMAIL_HOST_PASSWORD = 'SG.VZFE9P-ERBKkRx1yv8AsCw.uxnTVoPro--KPf-acDewLulUGNF9C6r
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'Asia/Dhaka' # new
+
