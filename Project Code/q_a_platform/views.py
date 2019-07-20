@@ -21,3 +21,11 @@ class QArticleDeleteView(DeleteView): # new
     model = QAarticle
     template_name = 'article_delete.html'
     success_url = reverse_lazy('article_list')
+
+class QArticleCreateView(CreateView): 
+    model = QAarticle
+    template_name = 'article_new.html'
+    fields = ('title', 'body', 'author',)
+
+class QPersonalDetailView(DetailView):
+    model = PersonalInfo
