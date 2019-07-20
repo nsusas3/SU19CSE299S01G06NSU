@@ -16,3 +16,10 @@ class QAarticle(models.Model):
         return self.title
     def get_absolute_url(self):
         return reverse('article_detail', args=[str(self.id)])
+
+class Overview(models.Model):
+    text = models.TextField()
+    class Meta:
+        verbose_name_plural = "Overview"
+    def __unicode__(self):
+        return self.text[0:40] + '...'
