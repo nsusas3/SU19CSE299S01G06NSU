@@ -26,6 +26,3 @@ class QArticleCreateView(CreateView):
     model = QAarticle
     template_name = 'article_new.html'
     fields = ('title', 'body', 'author',)
-
-class QPersonalDetailView(DetailView):
-    model = PersonalInfo
