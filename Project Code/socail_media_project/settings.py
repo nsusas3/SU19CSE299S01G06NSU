@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.auth',
 
     'crispy_forms', # new 3rd party
-    'whitenoise.runserver_nostatic', # new!
 
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -50,7 +49,6 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', # new!
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
