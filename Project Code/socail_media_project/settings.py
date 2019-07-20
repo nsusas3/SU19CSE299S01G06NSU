@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'q_a_platform.apps.QAPlatformConfig',
     'users.apps.UsersConfig', # new
     'pages.apps.PagesConfig', # new
     'newsfeeds.apps.NewsfeedsConfig', # new
