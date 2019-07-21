@@ -1,19 +1,3 @@
-## Group No:06
-## Project Member:
-```bash
-Name: Sifatul Alam Shohan
-Id: 1711385042
-Email: sifatul.shohan@northsouth.edu
-Course: CSE299
-Section: 01
-```
-```bash
-Name: Nadim Mahmud Dipu
-Id: 1711097042
-Email: nadim.dipu@northsouth.edu
-Course: CSE299
-Section: 01
-```
 <p align="center">
   <img src="https://github.com/Sifatul22/SU19CSE299S01G06NSU/blob/Issue-%2336-project-proposal/Documentation/images.jpeg">
 </p>
@@ -21,6 +5,7 @@ Section: 01
 <p align="center">
   <b>Course Number:</b> CSE 299<br>
   <b>Section:</b> 01<br>
+  <b>Group:</b> 06<br>
   <b>Semester:</b> Summer 2019<br>
   <b>Faculty Name:</b> Shaikh Shawon Arefin Shimon
 </p>
@@ -54,7 +39,6 @@ Section: 01
   
   </br>
   <h2 align="center"> Project Idea</h2>
-  
   <p>
   In this project, we are going to build a social media platform whose purpose would be to help enhance the user's career and professional life. We will be building a website (and subsequently an app) that would be geared towards people who are trying to build a better online portfolio for their career advancement.<br><br>
 We have noticed that some of the social media platforms like Facebook, messenger, and WhatsApp are being used in the workplace for some specific tasks to some degree. But that process is thoroughly inefficient as those platforms were not made to be used for professional use and in reality, they were made for user's entertainment.<br><br>
@@ -90,7 +74,25 @@ There will be a page where the users can post a detailed startup project idea to
 There will be a question answer section kind of like stack overflow where the users can post problems and the people who are skilled in that field can answer them as a mean of professional courtesy.
 
   </p>
+  </br>
+  <h2 align="center"> Technology</h2>
+  <p>
+  <b>Front end:</b> Html, CSS, javascript, bootstrap<br>
+  <b>Backend:</b> The Django framework<br>
+  <b>Database:</b> PostgreSQL<br>
+  <b>Version control:</b> git, Github<br>
+  <b>Project ideas:</b> trello<br>
+  <b>Team communication:</b> slack
+  </p>
 
 
+  </br>
+  <h2 align="center">Monetization/Business Plan</h2>
+  <p>
+ Most of the features of this web app will be free to everybody like profile building and chatting. But we will charge the users for the specialized features. Let’s consider this scenario a company has given a job circular if the user has paid for a premium feature his/her profile will be automatically given to the company as a viable candidate for that job. This will be sorted by the skills section of the user and the skills given as requirements in the job description.<br><br> 
+This is just one example. We will have paid tests for the users so that they can prove their skills by the grade they receive.<br><br>
+By using an online payment gateway API, we will be about to handle the payment part from the technology point of view. There will also be an advertisement option integrated into the website. Where we will be able to earn money by giving advertisements in the user's newsfeed.
+
+  </p>
 
     
