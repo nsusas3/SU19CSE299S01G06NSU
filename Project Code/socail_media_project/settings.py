@@ -25,7 +25,7 @@ SECRET_KEY = '=!&@b6qb=%(lc0+$$*s5c9lt6w-28-e^u&i7&_h%c2=)zwt$%i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com']
+ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -82,8 +82,11 @@ WSGI_APPLICATION = 'socail_media_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'HOST': 'db', # set in docker-compose.yml
+        'PORT': 5432 # default postgres port
     }
 }
 
