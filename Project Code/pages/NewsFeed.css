@@ -58,3 +58,33 @@ footer{
 .mb-1{
     color: #ffffff;
 }
+.left-side-bar{
+    background: #2F363E;
+    height: 700px;
+}
+.right-side-bar{
+    background: #4D5A69;
+    height: 700px;
+}
+
+h3{
+    background-color: white;
+    padding-top: 5px;
+}
+a{
+    color: white;
+}
+h5{
+    color: #fff;
+}
+img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+h4{
+    margin-left: 20px;
+    color: white;
+}
