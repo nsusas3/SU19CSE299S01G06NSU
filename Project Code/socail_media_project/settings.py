@@ -153,3 +153,10 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'Asia/Dhaka' # new
 
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+)
+
+SITE_ID = 1
+
