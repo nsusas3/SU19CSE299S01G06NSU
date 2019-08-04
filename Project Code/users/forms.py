@@ -21,7 +21,7 @@ class CustomUserChangeForm(UserChangeForm):
 class UserUpdateForm(forms.ModelForm):
     class Meta:
         model = CustomUser
-        fields = ('username', 'email', 'age',) # new
+        fields = ('username', 'email',) # new
 
 
 class ProfileUpdateForm(forms.ModelForm):

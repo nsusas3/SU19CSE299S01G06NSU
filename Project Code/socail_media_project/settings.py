@@ -142,5 +142,6 @@ EMAIL_HOST_PASSWORD = 'SG.VZFE9P-ERBKkRx1yv8AsCw.uxnTVoPro--KPf-acDewLulUGNF9C6r
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'Asia/Dhaka' # new
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
