@@ -4,7 +4,6 @@
 {% block title %} Sign Up
 {% endblock title %}
 {% load crispy_forms_tags %}
-{% load socialaccount %}
 
 {% block content %}
 
@@ -14,7 +13,5 @@
     {{ form|crispy }}
     <button class="btn btn-success" type="submit">SignUp</button>
     </form>
-    <h5>Login Using:</h5>
-  <a href="{% provider_login_url 'facebook' %}"><i class="fab fa-facebook" style="font-size: 50px; padding-right: 10px;"></i></a> 
-  <a href="{% provider_login_url 'google' %}"><i class="fab fa-google" style="font-size: 50px;"></i></a>
+
 {% endblock content %}

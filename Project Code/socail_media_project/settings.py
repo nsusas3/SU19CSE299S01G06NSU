@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+
     'django.contrib.sites', # new
 
     'allauth', # new
@@ -153,6 +154,7 @@ EMAIL_HOST_PASSWORD = 'SG.VZFE9P-ERBKkRx1yv8AsCw.uxnTVoPro--KPf-acDewLulUGNF9C6r
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 TIME_ZONE = 'Asia/Dhaka' # new
+
 
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",
