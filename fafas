@@ -1,0 +1,222 @@
+[33mcommit a4e015392a583ca8a807d3fa39df8e84af0c6b54[m[33m ([m[1;36mHEAD -> [m[1;32mFeature-#45-Templates[m[33m)[m
+Merge: ddc4bbc c0be8be
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Aug 3 22:53:45 2019 +0600
+
+    Merge branch 'Feature-#45-Templates' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into Feature-#45-Templates
+    merged.
+
+[33mcommit ddc4bbc91ed0e269c2245ebac0c0089dd0c91b6f[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Aug 3 22:45:57 2019 +0600
+
+    Enhancement-#45: Added the profile page front end to the django app.
+
+[33mcommit c0be8bec7d538e0524e26d10cb1be217fbe17a64[m[33m ([m[1;31morigin/Feature-#45-Templates[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Aug 3 22:45:57 2019 +0600
+
+    Added the profile page front end to the django app.
+
+[33mcommit e467b64e9d22cbdd80bbc591dce6933cfe3cf837[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Aug 3 22:42:50 2019 +0600
+
+    Enhancement-#45: Added the newsfeed page front end to the django newsfeed app.
+
+[33mcommit a246e80025c041da6a14d519b7b3f6386b7e049c[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Aug 3 22:38:25 2019 +0600
+
+    Enhance-#45: Added the front end code to the Q/A app in django.
+
+[33mcommit 382eb9c8bf62403d87f0864b95f7107c45375c7e[m[33m ([m[1;31morigin/master1[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster1[m[33m)[m
+Merge: 4e51cf3 10cdd48
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Aug 3 21:05:56 2019 +0600
+
+    Merge pull request #44 from Sifatul22/Issue-#34-postgresql
+    
+    Enhacement #34: Solved bug regarding Postgresql
+
+[33mcommit 10cdd48031c4b26d9eac9fb739fd8eee82432069[m
+Merge: 34f5216 4e51cf3
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Aug 3 21:05:48 2019 +0600
+
+    Merge branch 'master1' into Issue-#34-postgresql
+
+[33mcommit 34f52163d002713c3fbaef9461f1dce34fc0a385[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Aug 3 21:03:45 2019 +0600
+
+    Enhacement #34: Solved bug regarding Postgresql
+
+[33mcommit 4e51cf3cbab652535d1de9b380192a09c0e064a4[m
+Merge: 6b74c9c 28b5e02
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 28 02:58:27 2019 +0600
+
+    Merge pull request #42 from Sifatul22/Issue-#5-profile-creation
+    
+    Issue #5 profile creation
+
+[33mcommit 28b5e021f3a0c60433fdccd8f68284730d3bdd87[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 28 02:56:36 2019 +0600
+
+    Bug #41: Ignored df file
+
+[33mcommit 055841527714c78eca042ca8176888db2b5d94c3[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 28 02:53:02 2019 +0600
+
+    Feature #5: Added profile page, modified views, forms and apps
+
+[33mcommit 704dd390cb9e93129a08e820957d6becb70cd085[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 28 02:42:55 2019 +0600
+
+    Feature #5: added profile page functions
+
+[33mcommit 6b74c9c4dc9fd9de36831555f5f5812cae1704ba[m
+Merge: 815b320 63d6c25
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sun Jul 28 00:49:40 2019 +0600
+
+    Merge branch 'master1' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into master1
+    Merged with master1.
+
+[33mcommit 63d6c2503bc304794c1dd458988c23ce1b03d92e[m
+Merge: 3a5dfdc b3c4a78
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 23:28:06 2019 +0600
+
+    Merge pull request #40 from Sifatul22/Issue-#39-federated-id
+    
+    Issue #39 federated
+
+[33mcommit b3c4a786e6249df15b17e8e52879797a3ed58866[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 23:22:34 2019 +0600
+
+    Enhancement #39: added facebook google login
+
+[33mcommit 44ede290f5fa120166cf21196b2473caf88eb4ec[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 23:00:01 2019 +0600
+
+    Enhancement #39: Added allauth configuration
+
+[33mcommit 815b320fadbafb9aeb396658d19fed7189e8438d[m[33m ([m[1;31morigin/Feature-#37-Newsfeed[m[33m, [m[1;32mFeature-#37-Newsfeed[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 21:18:03 2019 +0600
+
+    Enhancement #37: Added the card posts to the newsfeed page.
+
+[33mcommit 2389c7e4c8381d87f81203fcb17c39a4f1b340be[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 20:56:15 2019 +0600
+
+    Enhancement #37: Added the left side for options to the newsfeed page.
+
+[33mcommit 3a5dfdc55342863d6605326115f615d36f2e7f02[m
+Merge: 3113323 34dd473
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 20:39:33 2019 +0600
+
+    Merge pull request #38 from Sifatul22/Issue-#34-postgresql
+    
+    Issue #34 postgresql
+
+[33mcommit 34dd473c7631d439a53107a201076c7164a15a1b[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 20:27:59 2019 +0600
+
+    Enhancement #34: Added and migrate the postgresql settings
+
+[33mcommit 7398b114e11cd37d5d463db883c102e9c948b1b4[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 20:13:03 2019 +0600
+
+    Enhancement #34: Added docker container to the docker-compose.yml file
+
+[33mcommit e02d19f01d96bda7111dcf3aa230d050b3153181[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 27 20:10:40 2019 +0600
+
+    Enhancement #34: Installed docker and added docker file to the project
+
+[33mcommit 4918656224350cd2e9b6b600f1da4790a35f65ed[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 19:51:03 2019 +0600
+
+    Enhancement #37: Adding navbar and footer to the Newsfeed page.
+
+[33mcommit 3113323df617e8d4a03cbd933395dc4bf7e1ff07[m
+Merge: 5ebbd48 89c8bec
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 19:02:22 2019 +0600
+
+    Merge branch 'master1' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into master1
+    Merge successful.
+
+[33mcommit 89c8becfc2f0211fdbe9665f3d6247479a1fca8e[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Mon Jul 22 02:04:29 2019 +0600
+
+    Documentation #36: Added technology, monetization to readme.md file
+
+[33mcommit 6fb924008121fe62e62b311eff536e3cbd049113[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Mon Jul 22 01:56:25 2019 +0600
+
+    Documentation #36: Added project ideas, features to readme file
+
+[33mcommit 28d2b57a1c434cbb2d72048f87106d5b4ef7bacc[m
+Merge: 6d5d771 52784d9
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 01:51:10 2019 +0600
+
+    Merge pull request #35 from Sifatul22/Feature-#9-QA-Platform
+    
+    Feature #9 qa platform
+
+[33mcommit 5ebbd48ba5de3d0cf4ef9f1e4c0a304390e3e0da[m
+Merge: 52784d9 6d5d771
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sun Jul 21 01:48:44 2019 +0600
+
+    Merge branch 'master1' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into master1
+    QA platform Front End.
+
+[33mcommit 52784d97b9020e94d1fef53fead494d4fec38c53[m[33m ([m[1;31morigin/Feature-#9-QA-Platform[m[33m, [m[1;32mFeature-#9-QA-Platform[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sun Jul 21 01:40:00 2019 +0600
+
+    Enhancement #9: Adding right side bar with questions with to the QA page.
+
+[33mcommit 6d5d7714c6c7d3cbff3de512fcbf6a07437d4b14[m
+Merge: d6b002f b6547a6
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:34:16 2019 +0600
+
+    Merge pull request #33 from Sifatul22/Issue-#9-qa-platform
+    
+    Issue #9 qa platform
+
+[33mcommit b6547a6fa5d5b576bdb103e1b60404f1253f3006[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:33:35 2019 +0600
+
+    Ignored ds_store and vscode file
+
+[33mcommit 7a147ff12a09a8ee195c9dbf4a30575c11087db6[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:22:34 2019 +0600
+
+    Enhancement #9: linked q/a platform to the base.html file
+
+[33mcommit 248e18b903015a84de1d7d01c0552bc7190827f0[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Ju
