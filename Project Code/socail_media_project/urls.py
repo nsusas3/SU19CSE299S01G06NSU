@@ -23,4 +23,8 @@ urlpatterns = [
     path('newsfeed/', include('newsfeeds.urls')), # new
     path('', include('pages.urls')), # new
 
+    #new
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
+
 ]
