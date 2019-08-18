@@ -1,0 +1,220 @@
+[33mcommit d5dbb6c4f888b492708c69d9a9d4087c40d0688d[m[33m ([m[1;36mHEAD -> [m[1;32mFeature-#37-Newsfeed[m[33m, [m[1;31morigin/Feature-#37-Newsfeed[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 19:51:03 2019 +0600
+
+    Enhancement#37: Adding navbar and footer to the Newsfeed page.
+
+[33mcommit 3113323df617e8d4a03cbd933395dc4bf7e1ff07[m[33m ([m[1;31morigin/master1[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster1[m[33m)[m
+Merge: 5ebbd48 89c8bec
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 27 19:02:22 2019 +0600
+
+    Merge branch 'master1' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into master1
+    Merge successful.
+
+[33mcommit 89c8becfc2f0211fdbe9665f3d6247479a1fca8e[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Mon Jul 22 02:04:29 2019 +0600
+
+    Documentation #36: Added technology, monetization to readme.md file
+
+[33mcommit 6fb924008121fe62e62b311eff536e3cbd049113[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Mon Jul 22 01:56:25 2019 +0600
+
+    Documentation #36: Added project ideas, features to readme file
+
+[33mcommit 28d2b57a1c434cbb2d72048f87106d5b4ef7bacc[m
+Merge: 6d5d771 52784d9
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 01:51:10 2019 +0600
+
+    Merge pull request #35 from Sifatul22/Feature-#9-QA-Platform
+    
+    Feature #9 qa platform
+
+[33mcommit 5ebbd48ba5de3d0cf4ef9f1e4c0a304390e3e0da[m
+Merge: 52784d9 6d5d771
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sun Jul 21 01:48:44 2019 +0600
+
+    Merge branch 'master1' of https://github.com/Sifatul22/SU19CSE299S01G06NSU into master1
+    QA platform Front End.
+
+[33mcommit 52784d97b9020e94d1fef53fead494d4fec38c53[m[33m ([m[1;31morigin/Feature-#9-QA-Platform[m[33m, [m[1;32mFeature-#9-QA-Platform[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sun Jul 21 01:40:00 2019 +0600
+
+    Enhancement #9: Adding right side bar with questions with to the QA page.
+
+[33mcommit 6d5d7714c6c7d3cbff3de512fcbf6a07437d4b14[m
+Merge: d6b002f b6547a6
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:34:16 2019 +0600
+
+    Merge pull request #33 from Sifatul22/Issue-#9-qa-platform
+    
+    Issue #9 qa platform
+
+[33mcommit b6547a6fa5d5b576bdb103e1b60404f1253f3006[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:33:35 2019 +0600
+
+    Ignored ds_store and vscode file
+
+[33mcommit 7a147ff12a09a8ee195c9dbf4a30575c11087db6[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:22:34 2019 +0600
+
+    Enhancement #9: linked q/a platform to the base.html file
+
+[33mcommit 248e18b903015a84de1d7d01c0552bc7190827f0[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:19:04 2019 +0600
+
+    Linked Q/A platform to the base.html file
+
+[33mcommit 38bd25469c5cb7e58110a353da237b233a4e40ca[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:17:51 2019 +0600
+
+    Added detail, list template for the platform
+
+[33mcommit 49f5ffeeb118ea3b313510562b88a183e322e059[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:16:45 2019 +0600
+
+    enhancement #9: added articles template for the Q/A platform
+
+[33mcommit d6b002f56fd942dbea24a17d3c92d671eb0f75a0[m
+Merge: 9716d1f daa6424
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:12:53 2019 +0600
+
+    Merge pull request #32 from Sifatul22/Issue-#9-qa-platform
+    
+    Issue #9 qa platform
+
+[33mcommit daa6424cecbc78ff36be209fd3527b079cd667ec[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:10:45 2019 +0600
+
+    enhancement #9: added urls.py file and connect to class to the url
+
+[33mcommit 40c92bde2851ae094a1a306ddbe137620f7de760[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:08:33 2019 +0600
+
+    enhancement #9: added createview class to the views file
+
+[33mcommit 8e6007221a968ca8da0bcdf52bdaef75dc5e29a1[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:05:33 2019 +0600
+
+    enhancement #9: added detail, update and create view class to the views.py file
+
+[33mcommit d39ce1b2f1efa944566ef4466a4cbafbc0abf861[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:03:48 2019 +0600
+
+    enhancement #9: added listview class to ehe views.py file
+
+[33mcommit 7f0c1f6c991e608f286c5d3f9c1eb0f03ec68199[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sun Jul 21 00:00:59 2019 +0600
+
+    enhancement #9: added overview class to the model.py file
+
+[33mcommit 0eef0002174a68bf5e76ea07e522fcfa31c86096[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 20 23:59:56 2019 +0600
+
+    ehancement #9: added qa_article class to the model.py file
+
+[33mcommit 8799063553f96aec02942a643a7023c62b7bd540[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Sat Jul 20 23:53:01 2019 +0600
+
+    enhancement #9: added q_a_platform app
+
+[33mcommit 7ee57aff3d3e08658a53fa2f460ce3b71372d8cd[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 20 13:00:14 2019 +0600
+
+    Feature-#9:Adding question forms details and image upload part to the mid section of QA page.
+
+[33mcommit 5af07061d8318501ac96edc2ad606893567196fa[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 20 12:11:21 2019 +0600
+
+    Feature-#9:Adding the left side bar options to the QA platform page.
+
+[33mcommit f79453b4331c23aa0e238a465ff0615b394c7012[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 20 00:45:04 2019 +0600
+
+    Feature-#9: Adding navbar and footer to the QA-page.
+
+[33mcommit 6fb9f30091977e79a0392148f0f92767b5675976[m[33m ([m[1;31morigin/Issue-#27-Deploy-project[m[33m)[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 23:19:54 2019 +0600
+
+    Testing #27: added runtime file
+
+[33mcommit 2eafd422ddddb51dacdb11bc8e8610b60a94fdca[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 23:17:06 2019 +0600
+
+    Testing #27: Fixed Procfile Issue
+
+[33mcommit bfc9d0b41615853a5a928cb54f726be041931062[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 23:15:03 2019 +0600
+
+    Testing #27: Fixing heroku issues
+
+[33mcommit 4e0261a27bae1712711588e5036fc7aa31f42c1a[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 23:10:44 2019 +0600
+
+    Testing #27: fixing deployment
+
+[33mcommit 1959e3923ef4347c708b0c75cd9abd374cbbe56d[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 22:47:44 2019 +0600
+
+    Testing #27: Configuring for deployment
+
+[33mcommit 81ca5a0dc33c329686c4443eb4732b5c3ae75746[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 20:42:16 2019 +0600
+
+    Testing #27: Added requirement file
+
+[33mcommit dcb179df85ac77a2b68233aa57a5fc360ce61e02[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 20:33:02 2019 +0600
+
+    Testing #27: Heroku config
+
+[33mcommit 9716d1f1aee00a1762bb7639e8808c1dc26cccd4[m
+Author: Sifatul Alam Shohan <sifatul.shohan@northsouth.edu>
+Date:   Fri Jul 19 03:00:49 2019 +0600
+
+    documentation #26: fixed file directories
+
+[33mcommit aeba112fe0af2f7927d18e7a6cff7d6093d7cb5a[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Thu Jul 11 01:08:08 2019 +0600
+
+    Solving issue #25: Adding project showcasing feature to the profile page.
+
+[33mcommit ab8cea899025a1bd9b9c9dca153c299b770c1043[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Thu Jul 11 00:47:02 2019 +0600
+
+    Solving issue #25: Adding necessary components to the profile page and styling the gui.
+
+[33mcommit 69ba6cc0242f0d41b00c504d1d064f8c285c5771[m[33m ([m[1;31morigin/Issue-#7-Blogging-Interface[m[33m)[m
+Author: Nadim Mahmud Dipu <nadim.dipu@northsouth.edu>
+Date:   Sat Jul 6 21:47:08 2019 +
