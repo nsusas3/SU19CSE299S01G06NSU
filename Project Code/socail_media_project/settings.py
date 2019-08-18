@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'newsfeeds.apps.NewsfeedsConfig', # new
     'django.contrib.admin',
     'django.contrib.auth',
-
+    'chat',
     'crispy_forms', # new 3rd party
 
     'django.contrib.contenttypes',
@@ -45,6 +45,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+
+    'rest_framework',
+    'rest_framework.authtoken',
+    'djoser',
 
     'django.contrib.sites', # new
 
@@ -56,6 +60,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.instagram',
+
 ]
 
 MIDDLEWARE = [
