@@ -1,1 +1,0 @@
-web: gunicorn socail_media_project.wsgi
