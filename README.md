@@ -75,10 +75,14 @@ There will be a question answer section kind of like stack overflow where the us
 
 <h3>Installation</h3>
 This project is public and open source. So, if anyone wants to run this project on their device he/she would have to at first clone this project from this repository. After he/she has to do the following:
-1.	Install python on his/her system (if it’s not already installed)
-2.	Create a virtual environment on the project folder
-3.	Pip install Django in that virtual environment 
-4.	From the project folder use the command “py manage.py runserver” to run the project on their web browser. 
+<ol>
+        <li>Install python on his/her system (if it’s not already installed)</li>
+            <li>Create a virtual environment on the project folder</li>
+         <li>3.	Pip install Django in that virtual environment </li>
+            	<li>From the project folder use the command “py manage.py runserver” to run the project on their web browser.</li>
+    </ol>
+
+
 
 
   </p>
