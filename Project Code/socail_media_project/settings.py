@@ -31,13 +31,12 @@ ALLOWED_HOSTS = ['herokudjangoapp.herokuapp.com', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'q_a_platform.apps.QAPlatformConfig',
     'users.apps.UsersConfig', # new
     'pages.apps.PagesConfig', # new
     'newsfeeds.apps.NewsfeedsConfig', # new
     'django.contrib.admin',
     'django.contrib.auth',
-    'chat',
+   
     'crispy_forms', # new 3rd party
 
     'django.contrib.contenttypes',
@@ -45,9 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'rest_framework',
-    'rest_framework.authtoken',
-    'djoser',
+    # 'rest_framework',
+    # # 'rest_framework.authtoken',
+    # 'djoser',
 ]
 
 MIDDLEWARE = [
@@ -86,13 +85,11 @@ WSGI_APPLICATION = 'socail_media_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db', # set in docker-compose.yml
-        'PORT': 5432 # default postgres port
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 
 # Password validation
@@ -131,20 +128,22 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # new!
+
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-AUTH_USER_MODEL = 'users.CustomUser' # new
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'home'
+
+# AUTH_USER_MODEL = 'users.CustomUser' # new
+LOGIN_REDIRECT_URL = 'blog-home'
+LOGOUT_REDIRECT_URL = 'blog-home'
+LOGIN_URL = 'login'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = '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'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
 TIME_ZONE = 'Asia/Dhaka' # new
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

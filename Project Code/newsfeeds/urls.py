@@ -1,21 +1,20 @@
 from django.urls import path
-from .views import ( 
-    ArticleListView,
-    ArticleUpdateView,
-    ArticleDetailView,
-    ArticleDeleteView, # new
-    ArticleCreateView,
-    PersonalDetailView
+from .views import (
+    PostListView,
+    PostDetailView,
+    PostCreateView,
+    PostUpdateView,
+    PostDeleteView,
+    UserPostListView
 )
-urlpatterns = [
-    path('<int:pk>/edit/',
-         ArticleUpdateView.as_view(), name='article_edit'), # new
-    path('<int:pk>/',
-         ArticleDetailView.as_view(), name='article_detail'), # new
-    path('<int:pk>/delete/',
-         ArticleDeleteView.as_view(), name='article_delete'), # new
-    path('new/', ArticleCreateView.as_view(), name='article_new'), # new
-    path('resume/', PersonalDetailView.as_view(), name='resume'), # new
+from . import views
 
-    path('', ArticleListView.as_view(), name='article_list'),
+urlpatterns = [
+    path('', PostListView.as_view(), name='blog-home'),
+    path('user/<str:username>', UserPostListView.as_view(), name='user-posts'),
+    path('post/<int:pk>/', PostDetailView.as_view(), name='post-detail'),
+    path('post/new/', PostCreateView.as_view(), name='post-create'),
+    path('post/<int:pk>/update/', PostUpdateView.as_view(), name='post-update'),
+    path('post/<int:pk>/delete/', PostDeleteView.as_view(), name='post-delete'),
+    path('about/', views.about, name='blog-about'),
 ]

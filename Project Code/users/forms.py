@@ -1,43 +1,26 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-from django.contrib.auth.decorators import login_required
-from .models import CustomUser
-from django.shortcuts import render, redirect
+from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
 from .models import Profile
 
 
-class CustomUserCreationForm(UserCreationForm):
-    class Meta(UserCreationForm.Meta):
-        model = CustomUser
-        fields = UserCreationForm.Meta.fields + ('first_name', 'last_name', 'email',)
+class UserRegisterForm(UserCreationForm):
+    email = forms.EmailField()
 
-
-class CustomUserChangeForm(UserChangeForm):
     class Meta:
-        model = CustomUser
-        fields = UserChangeForm.Meta.fields
+        model = User
+        fields = ['username', 'email', 'password1', 'password2']
 
 
 class UserUpdateForm(forms.ModelForm):
+    email = forms.EmailField()
+
     class Meta:
-        model = CustomUser
-        fields = ('username', 'email',) # new
+        model = User
+        fields = ['username', 'email']
 
 
 class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
-        fields = ('image',)
-
-@login_required
-def profile(request):
-    u_form = UserUpdateForm()
-    p_form = ProfileUpdateForm()
-
-    context = {
-        'u_form': u_form,
-        'p_form': p_form
-    }
-        
-    
-    return render(request, 'users/profile.html', context)
+        fields = ['image']
