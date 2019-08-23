@@ -55,11 +55,11 @@ By using our website, the users will be able to make a professional profile show
   The essential features of our product are the following:
   <p>
   <h3> Newsfeed</h3>
-  The user will have his/her personalized newsfeed showing the articles and posts about the topics he/she was interested in and they have seen and liked before.
+  The user will have his/her personalized newsfeed showing the articles and posts about the topics he/she was interested in and they have seen and liked before. Other users can make posts and the primary user can see what other users have posted in their newsfeed in minified Card format. Whenever they click on the card they will be taken to a page with the full post. 
 
 <h3> Chat app</h3>
-  Of course, no social media site is complete without some form of chatting option. On our website, there will be a chatting option where the user can have conversations with each other.
-
+  Of course, no social media site is complete without some form of chatting option. On our website, there will be a chatting option where the user can have conversations with each other. Provided that both users are logged in, they will be able see which users are online and message them plain texts. The users can also share files and images too.
+  
 <h3> General Profile</h3>
 The users will be able to build their profile in the format of their CV. So that their profile link can be used as a substitute for their CV. Also, there will be a part in their profile where they can showcase their projects using snapshots, .ppt files and pdf files. The user profile will have a verified review option where the other employees of the companies he/she worked in and his/her employers can post a review about the user’s performance and work ethic.
 
@@ -72,6 +72,14 @@ There will be a page where the users can post a detailed startup project idea to
 
 <h3>Business-related Q/A section</h3>
 There will be a question answer section kind of like stack overflow where the users can post problems and the people who are skilled in that field can answer them as a mean of professional courtesy.
+
+<h3>Installation</h3>
+This project is public and open source. So, if anyone wants to run this project on their device he/she would have to at first clone this project from this repository. After he/she has to do the following:
+1.	Install python on his/her system (if it’s not already installed)
+2.	Create a virtual environment on the project folder
+3.	Pip install Django in that virtual environment 
+4.	From the project folder use the command “py manage.py runserver” to run the project on their web browser. 
+
 
   </p>
   </br>
