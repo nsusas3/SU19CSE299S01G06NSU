@@ -100,12 +100,3 @@ This project is public and open source. So, if anyone wants to run this project 
 
 
   </br>
-  <h2 align="center">Monetization/Business Plan</h2>
-  <p>
- Most of the features of this web app will be free to everybody like profile building and chatting. But we will charge the users for the specialized features. Let’s consider this scenario a company has given a job circular if the user has paid for a premium feature his/her profile will be automatically given to the company as a viable candidate for that job. This will be sorted by the skills section of the user and the skills given as requirements in the job description.<br><br> 
-This is just one example. We will have paid tests for the users so that they can prove their skills by the grade they receive.<br><br>
-By using an online payment gateway API, we will be about to handle the payment part from the technology point of view. There will also be an advertisement option integrated into the website. Where we will be able to earn money by giving advertisements in the user's newsfeed.
-
-  </p>
-
-    
