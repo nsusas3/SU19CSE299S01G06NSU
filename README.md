@@ -74,7 +74,8 @@ There will be a page where the users can post a detailed startup project idea to
 There will be a question answer section kind of like stack overflow where the users can post problems and the people who are skilled in that field can answer them as a mean of professional courtesy.
 
 <h3>Installation</h3>
-This project is public and open source. So, if anyone wants to run this project on their device he/she would have to at first clone this project from this repository. After he/she has to do the following:
+This project is public and open source. So, if anyone wants to run this project on their device he/she would have to at first clone this project from this repository. After he/she has to do the following: 
+<br>
 <ol>
         <li>Install python on his/her system (if it’s not already installed)</li>
             <li>Create a virtual environment on the project folder</li>
