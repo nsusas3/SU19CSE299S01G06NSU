@@ -2,6 +2,27 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from django.views.generic.edit import FormView
+from questans.models import Questions, Answers, QuestionGroups
+from django.urls import reverse
+
+
+
+class DashboardView(FormView):
+
+    def get(self, request):
+        content = {}
+        if request.user.is_authenticated:
+            user = request.user
+            user.backend = 'django.contrib.core.backends.ModelBackend'
+            ques_obj = Questions.objects.filter(user=user)
+            content['userdetail'] = user
+            content['questions'] = ques_obj
+            ans_obj = Answers.objects.filter(question=ques_obj[0])
+            content['answers'] = ans_obj
+            return render(request, 'dashboard.html', content)
+        else:
+            return redirect(reverse('login'))
 
 
 def register(request):
