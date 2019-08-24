@@ -19,12 +19,12 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
-from django_private_chat import urls as django_private_chat_urls
 
 
 
 urlpatterns = [
     path('^',include('django_private_chat.urls')),
+    path('chat/', include('chat.urls')),
     path('admin/', admin.site.urls),
     path('dashboard/', user_views.DashboardView.as_view(), name= 'dashboard'),
     path('register/', user_views.register, name='register'),

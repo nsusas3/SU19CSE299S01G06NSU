@@ -17,6 +17,7 @@ urllib3 = "==1.23"
 Django = "==2.1"
 Pillow = "==5.2.0"
 django-private-chat = "*"
+channels = "*"
 
 [requires]
 python_version = "3.7"

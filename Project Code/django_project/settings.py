@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     'questans',
     'django_private_chat',
-
+    'chat',
+    'channels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -144,3 +145,5 @@ DATETIME_FORMAT = "d.m.Y H:i:s"
 CHAT_WS_SERVER_HOST = 'localhost'
 CHAT_WS_SERVER_PORT = 5002
 CHAT_WS_SERVER_PROTOCOL = 'ws'
+
+ASGI_APPLICATION = 'django_project.routing.application'
