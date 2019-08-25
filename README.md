@@ -69,13 +69,6 @@ The users will be able to build their profile in the format of their CV. So that
 <h3>Company profile</h3>
 The company profile will be different from a user profile. This will have the company's essential information and their projects and accomplishments. There will be a verified review option from the company’s employers and the other companies who have collaborated with them.
 
-<h3>A place for a startup project idea </h3>
-There will be a page where the users can post a detailed startup project idea to gain investment and resources from the different companies and even from other users from this social media platform.
-
-
-<h3>Business-related Q/A section</h3>
-There will be a question answer section kind of like stack overflow where the users can post problems and the people who are skilled in that field can answer them as a mean of professional courtesy.
-
 <h3>Installation</h3>
 This project is public and open source. So, if anyone wants to run this project on their device he/she would have to at first clone this project from this repository. After he/she has to do the following: 
 <br>
