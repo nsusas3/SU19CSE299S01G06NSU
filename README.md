@@ -38,7 +38,7 @@
   </p>
   
   </br>
-  <h2 align="center"> Project Idea</h2>
+  <h2 align="center"> Project Details</h2>
   <p>
   In this project, we are going to build a social media platform whose purpose would be to help enhance the user's career and professional life. We will be building a website (and subsequently an app) that would be geared towards people who are trying to build a better online portfolio for their career advancement.<br><br>
 We have noticed that some of the social media platforms like Facebook, messenger, and WhatsApp are being used in the workplace for some specific tasks to some degree. But that process is thoroughly inefficient as those platforms were not made to be used for professional use and in reality, they were made for user's entertainment.<br><br>
@@ -52,6 +52,9 @@ By using our website, the users will be able to make a professional profile show
 
 </br>
   <h2 align="center"> Features</h2>
+  <p align="center">
+  <img src="https://github.com/Sifatul22/SU19CSE299S01G06NSU/blob/master1/Documentation/image2.png">
+</p>
   The essential features of our product are the following:
   <p>
   <h3> Newsfeed</h3>
