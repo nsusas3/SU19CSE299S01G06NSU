@@ -43,7 +43,7 @@ oauthlib==3.0.2
 opencv-python==4.1.0.25
 paramiko==2.6.0
 Pillow==6.1.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 protobuf==3.9.0
 psycopg2==2.8.3
 pyasn1==0.4.5
